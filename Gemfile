@@ -17,6 +17,9 @@ gem 'bootstrap', '~> 4.1.3'
 gem 'devise'
 gem 'jquery-rails'
 
+#security vulnerability
+gem 'rubyzip',  '~> 1.2.2'
+
 group :development, :test do
   gem 'pry'
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
